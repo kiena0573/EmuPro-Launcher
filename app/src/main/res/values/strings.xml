@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game Launcher</string>
+    <string name="widget_game_label">Game Shortcut (1x1)</string>
+    <string name="widget_game_desc">Phím tắt nhanh mở 1 game</string>
+    <string name="widget_random_label">Random Game (1x1)</string>
+    <string name="widget_random_desc">Chọn ngẫu nhiên 1 game từ thư viện</string>
+    <string name="widget_shelf_label">Game Shelf (4x1)</string>
+    <string name="widget_shelf_desc">Giá để game dạng ngang, hiển thị 4 game</string>
+    <string name="widget_shelf_2x2_label">Game Shelf (2x2)</string>
+    <string name="widget_shelf_2x2_desc">Giá để game dạng lưới, hiển thị 4 game trong ô vuông 2x2</string>
+</resources>

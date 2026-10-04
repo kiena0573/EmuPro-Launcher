@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shelf_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shelf_background">
+
+    <ImageView
+        android:id="@+id/shelf_bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/shelf_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="4"
+        android:gravity="bottom|center_horizontal">
+
+        <ImageView
+            android:id="@+id/shelf_game_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/shelf_game_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/shelf_game_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/shelf_game_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+{
+  "name": "Game Launcher",
+  "description": "Chuyên dụng cho game giả lập, quản lý ROM, Boxart và Widget.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

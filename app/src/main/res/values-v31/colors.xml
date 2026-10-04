@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Use dynamic material you color on Android 12+ -->
+    <color name="widget_shelf_bg">@android:color/system_neutral1_100</color>
+</resources>
